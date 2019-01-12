@@ -247,7 +247,7 @@
     var basicBot = {
         version: '3.0',
         status: false,
-        name: 'Kermon55 MusicRoom | BOT',
+        name: 'BOT',
         loggedInID: null,
         scriptLink: 'https://raw.githack.com/Kermon55/Kermon55mrBOT/master/basicBot.js',
         cmdLink: 'https://git.io/fhn0w',
@@ -257,7 +257,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: 'Kermon55 MusicRoom | BOT',
+            botName: 'BOT',
             language: 'english',
             chatLink: 'https://raw.githack.com/Kermon55/Kermon55mrBOT/master/lang/en.json',
             scriptLink: 'https://raw.githack.com/Kermon55/Kermon55mrBOT/master/basicBot.js',
