@@ -1,5 +1,7 @@
 ### Kermon55 MusicRoom BOT
 
+---
+
 ### Usage
 
 Bookmark the following code. To run the bot, click the bookmark.
