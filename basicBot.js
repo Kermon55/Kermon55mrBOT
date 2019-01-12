@@ -112,7 +112,7 @@
 
     var loadChat = function(cb) {
         if (!cb) cb = function() {};
-        $.get('https://raw.githack.com/basicBot/source/master/lang/langIndex.json', function(json) {
+        $.get('https://raw.githack.com/Kermon55/Kermon55mrBOT/master/lang/langIndex.json', function(json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== 'undefined') {
                 langIndex = json;
@@ -250,7 +250,7 @@
         name: 'Kermon55 MusicRoom | BOT',
         loggedInID: null,
         scriptLink: 'https://raw.githack.com/Kermon55/Kermon55mrBOT/master/basicBot.js',
-        cmdLink: 'http://git.io/245Ppg',
+        cmdLink: 'https://git.io/fhn0w',
         chatLink: 'https://raw.githack.com/Kermon55/Kermon55mrBOT/master/lang/en.json',
         chat: null,
         loadChat: loadChat,
