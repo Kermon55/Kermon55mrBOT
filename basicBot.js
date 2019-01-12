@@ -112,7 +112,7 @@
 
     var loadChat = function(cb) {
         if (!cb) cb = function() {};
-        $.get('https://raw.githack.com/Kermon55/Kermon55mrBOT/master/lang/langIndex.json', function(json) {
+        $.get('https://raw.githack.com/basicBot/source/master/lang/langIndex.json', function(json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== 'undefined') {
                 langIndex = json;
@@ -240,27 +240,27 @@
         return str;
     };
 
-    var botCreator = 'Kermon55';
-    var botMaintainer = 'Kermon55';
-    var botCreatorIDs = [5989695, 5989695];
+    var botCreator = 'Yemasthui';
+    var botMaintainer = 'Benzi';
+    var botCreatorIDs = [3851534, 4105209];
 
     var basicBot = {
-        version: '3.0',
+        version: '2.12.3',
         status: false,
-        name: 'Kermon55 MusicRoom | BOT',
+        name: 'Kermon55 MR | BOT',
         loggedInID: null,
-        scriptLink: 'https://raw.githack.com/Kermon55/Kermon55mrBOT/master/basicBot.js',
-        cmdLink: 'https://git.io/fhn0w',
-        chatLink: 'https://raw.githack.com/Kermon55/Kermon55mrBOT/master/lang/en.json',
+        scriptLink: 'https://raw.githack.com/basicBot/source/master/basicBot.js',
+        cmdLink: 'http://git.io/245Ppg',
+        chatLink: 'https://raw.githack.com/basicBot/source/master/lang/en.json',
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: 'Kermon55 MusicRoom | BOT',
+            botName: 'Kermon55 MR | BOT',
             language: 'english',
-            chatLink: 'https://raw.githack.com/Kermon55/Kermon55mrBOT/master/lang/en.json',
-            scriptLink: 'https://raw.githack.com/Kermon55/Kermon55mrBOT/master/basicBot.js',
+            chatLink: 'https://raw.githack.com/basicBot/source/master/lang/en.json',
+            scriptLink: 'https://raw.githack.com/basicBot/source/master/basicBot.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
@@ -311,8 +311,8 @@
             opLink: null,
             rulesLink: null,
             themeLink: null,
-            fbLink: 'https://www.facebook.com/Kermon55',
-            youtubeLink: 'https://www.youtube.com/Kermon55',
+            fbLink: null,
+            youtubeLink: null,
             website: null,
             intervalMessages: [],
             messageInterval: 5,
@@ -325,7 +325,7 @@
             }
         },
         room: {
-            name: 'Kermon55 MusicRoom',
+            name: null,
             chatMessages: [],
             users: [],
             afkList: [],
@@ -755,7 +755,7 @@
                     }, 500);
                     basicBot.room.skippable = false;
                     setTimeout(function() {
-                        basicBot.room.skippable = true;
+                        basicBot.room.skippable = true
                     }, 5 * 1000);
                     setTimeout(function(id) {
                         basicBot.userUtilities.moveUser(id, basicBot.settings.skipPosition, false);
@@ -4128,6 +4128,24 @@
 
                                 if (rawlang == 'en') {
                                     var language = 'English';
+                                } else if (rawlang == 'bg') {
+                                    var language = 'Bulgarian';
+                                } else if (rawlang == 'cs') {
+                                    var language = 'Czech';
+                                } else if (rawlang == 'fi') {
+                                    var language = 'Finnish';
+                                } else if (rawlang == 'fr') {
+                                    var language = 'French';
+                                } else if (rawlang == 'pt') {
+                                    var language = 'Portuguese';
+                                } else if (rawlang == 'zh') {
+                                    var language = 'Chinese';
+                                } else if (rawlang == 'sk') {
+                                    var language = 'Slovak';
+                                } else if (rawlang == 'nl') {
+                                    var language = 'Dutch';
+                                } else if (rawlang == 'ms') {
+                                    var language = 'Malay';
                                 }
 
                                 var rawrank = API.getUser(id);
