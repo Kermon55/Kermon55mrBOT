@@ -245,7 +245,7 @@
     var botCreatorIDs = [5989695, 5989695];
 
     var basicBot = {
-        version: '2.12.3',
+        version: '3.0',
         status: false,
         name: 'Kermon55 MusicRoom | BOT',
         loggedInID: null,
@@ -259,8 +259,8 @@
         settings: {
             botName: 'Kermon55 MusicRoom | BOT',
             language: 'english',
-            chatLink: 'https://raw.githack.com/basicBot/source/master/lang/en.json',
-            scriptLink: 'https://raw.githack.com/basicBot/source/master/basicBot.js',
+            chatLink: 'https://raw.githack.com/Kermon55/Kermon55mrBOT/master/lang/en.json',
+            scriptLink: 'https://raw.githack.com/Kermon55/Kermon55mrBOT/master/basicBot.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
@@ -281,7 +281,7 @@
             maximumCycletime: 10,
             voteSkip: false,
             voteSkipLimit: 10,
-            historySkip: false,
+            historySkip: true,
             timeGuard: true,
             strictTimeGuard: true,
             maximumSongLength: 8,
@@ -311,8 +311,8 @@
             opLink: null,
             rulesLink: null,
             themeLink: null,
-            fbLink: null,
-            youtubeLink: null,
+            fbLink: 'https://www.facebook.com/Kermon55',
+            youtubeLink: 'https://www.youtube.com/Kermon55',
             website: null,
             intervalMessages: [],
             messageInterval: 5,
