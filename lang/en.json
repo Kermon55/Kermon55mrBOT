@@ -163,7 +163,7 @@
     "kill": "\/me Shutting down.",
     "logout": "\/me [@%%NAME%%] Logging out %%BOTNAME%%",
     "rouletteleave": "\/me @%%NAME%% left the roulette!",
-    "songlink": "\/me [@%%NAME%%] Link to current song: %%LINK%%",
+    "songlink": "\/me [@%%NAME%%] Link to current song » %%LINK%%",
     "usedlockskip": "\/me [%%NAME%% used lockskip]",
     "usedskip": "\/me [%%NAME%% used skip]",
     "skippos": "\/me [@%%NAME%%] DJs will now be moved to position %%POSITION%% when skipped.",
