@@ -755,7 +755,7 @@
                     }, 500);
                     basicBot.room.skippable = false;
                     setTimeout(function() {
-                        basicBot.room.skippable = true
+                        basicBot.room.skippable = true;
                     }, 5 * 1000);
                     setTimeout(function(id) {
                         basicBot.userUtilities.moveUser(id, basicBot.settings.skipPosition, false);
@@ -4128,24 +4128,6 @@
 
                                 if (rawlang == 'en') {
                                     var language = 'English';
-                                } else if (rawlang == 'bg') {
-                                    var language = 'Bulgarian';
-                                } else if (rawlang == 'cs') {
-                                    var language = 'Czech';
-                                } else if (rawlang == 'fi') {
-                                    var language = 'Finnish';
-                                } else if (rawlang == 'fr') {
-                                    var language = 'French';
-                                } else if (rawlang == 'pt') {
-                                    var language = 'Portuguese';
-                                } else if (rawlang == 'zh') {
-                                    var language = 'Chinese';
-                                } else if (rawlang == 'sk') {
-                                    var language = 'Slovak';
-                                } else if (rawlang == 'nl') {
-                                    var language = 'Dutch';
-                                } else if (rawlang == 'ms') {
-                                    var language = 'Malay';
                                 }
 
                                 var rawrank = API.getUser(id);
