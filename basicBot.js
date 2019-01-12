@@ -1,6 +1,6 @@
 /**
 
- Copyright © 2014-2019 Kermon55 MusicRoom BOT
+ Copyright © 2014-2018 basicBot
 
  Modifications (including forks) of the code to fit personal needs are allowed only for personal use and should refer back to the original source.
  This software is not for profit, any extension, or unauthorised person providing this software is not authorised to be in a position of any monetary gain from this use of this software. Any and all money gained under the use of the software (which includes donations) must be passed on to the original author.
@@ -247,7 +247,7 @@
     var basicBot = {
         version: '2.12.3',
         status: false,
-        name: 'Kermon55 MR | BOT',
+        name: 'basicBot',
         loggedInID: null,
         scriptLink: 'https://raw.githack.com/basicBot/source/master/basicBot.js',
         cmdLink: 'http://git.io/245Ppg',
@@ -257,7 +257,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: 'Kermon55 MR | BOT',
+            botName: 'basicBot',
             language: 'english',
             chatLink: 'https://raw.githack.com/basicBot/source/master/lang/en.json',
             scriptLink: 'https://raw.githack.com/basicBot/source/master/basicBot.js',
@@ -269,10 +269,10 @@
             autoskip: false,
             smartSkip: true,
             cmdDeletion: true,
-            maximumAfk: 360,
+            maximumAfk: 120,
             afkRemoval: true,
             maximumDc: 60,
-            bouncerPlus: false,
+            bouncerPlus: true,
             blacklistEnabled: true,
             lockdownEnabled: false,
             lockGuard: false,
@@ -281,10 +281,10 @@
             maximumCycletime: 10,
             voteSkip: false,
             voteSkipLimit: 10,
-            historySkip: true,
+            historySkip: false,
             timeGuard: true,
             strictTimeGuard: true,
-            maximumSongLength: 8,
+            maximumSongLength: 10,
             autodisable: false,
             commandCooldown: 30,
             usercommandsEnabled: true,
