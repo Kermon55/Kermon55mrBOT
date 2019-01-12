@@ -325,7 +325,7 @@
             }
         },
         room: {
-            name: 'Kermon55 Musicroom',
+            name: 'Kermon55 MusicRoom',
             chatMessages: [],
             users: [],
             afkList: [],
@@ -351,7 +351,7 @@
             cycleTimer: setTimeout(function() {}, 1),
             tgSkip: null,
             roomstats: {
-                accountName: null,
+                accountName: 'Kermon55 MusicRoom | BOT',
                 totalWoots: 0,
                 totalCurates: 0,
                 totalMehs: 0,
