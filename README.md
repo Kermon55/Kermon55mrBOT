@@ -1,4 +1,4 @@
-![Kermon55 MusicRoom BOT](http://i.imgur.com/efwl0PS.png)
+### [Kermon55 MusicRoom BOT]
 
 ### Contact
 
