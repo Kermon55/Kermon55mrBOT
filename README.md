@@ -1,10 +1,4 @@
-### [Kermon55 MusicRoom BOT]
-
-### Contact
-
-[![Slack](https://basicbot.herokuapp.com/badge.svg)](https://basicbot.herokuapp.com/) [![Facebook group](https://img.shields.io/badge/facebook-group-3b5998.svg?style=flat)](https://facebook.com/groups/basicBot) [![Twitter](https://img.shields.io/twitter/follow/bscbt.svg?style=social)](https://twitter.com/bscbt)
-
-Email enquiries: [hi[at]benzi[dot]io](mailto:hi@benzi.io)
+### Kermon55 MusicRoom BOT
 
 ### Usage
 
@@ -37,23 +31,9 @@ Please do not try to if you are not confident in your JavaScript capabilities.
 [Get the Official basicBot Chrome Extension](https://chrome.google.com/webstore/detail/basicbot/bjinmbkeneigmkkkpcmcokphbjkepeie)
 -->
 
-### Credits
-
-| Developers |
-|:----------:|
-| [![Benzi](https://www.gravatar.com/avatar/a9a9e27f874dadfaf0e21e8ecf8e9833.jpg?s=100)](https://github.com/Benzi) |
-| **[Benzi](https://github.com/Benzi)** |
-
-#### Special thanks :sparkles:
-
-- Fungus: His Tastybot has been a source of inspiration for most of the features, and his help with coding problems has been invaluable to make this bot.
-- TAT, Origin and other Litebot contributors: Their Litebot has inspired features like Roulette.
-- Henchman: Never knew this undertaking would give me a friend too.
-
-
 ### License
 
-Copyright &copy; 2014-2018 basicBot
+Copyright &copy; 2014-2019 Kermon55 MusicRoom BOT
 
 Modifications (including forks) of the code to fit personal needs are allowed only for personal use and should refer back to the original source.
 This software is not for profit, any extension, or unauthorised person providing this software is not authorised to be in a position of any monetary gain from this use of this software. Any and all money gained under the use of the software (which includes donations) must be passed on to the original author.
