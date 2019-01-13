@@ -251,7 +251,7 @@
         loggedInID: "38887138",
         scriptLink: "https://raw.githack.com/Kermon55/Kermon55mrBOT/master/basicBot.js",
         cmdLink: "https://git.io/fhn0w",
-        chatLink: "https://raw.githack.com/Kermon55/Kermon55mrBOT/master/lang/en.json",
+        chatLink: "https://raw.githack.com/Kermon55/Kermon55mrBOT/master/lang/langIndex.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -259,7 +259,7 @@
         settings: {
             botName: "Botton",
             language: "english",
-            chatLink: "https://raw.githack.com/Kermon55/Kermon55mrBOT/master/lang/en.json",
+            chatLink: "https://raw.githack.com/Kermon55/Kermon55mrBOT/master/lang/langIndex.json",
             scriptLink: "https://raw.githack.com/Kermon55/Kermon55mrBOT/master/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
