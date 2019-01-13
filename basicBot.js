@@ -112,7 +112,7 @@
 
     var loadChat = function(cb) {
         if (!cb) cb = function() {};
-        $.get('https://raw.githack.com/basicBot/source/master/lang/langIndex.json', function(json) {
+        $.get('https://raw.githack.com/Kermon55/Kermon55mrBOT/master/lang/langIndex.json', function(json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== 'undefined') {
                 langIndex = json;
@@ -4128,24 +4128,6 @@
 
                                 if (rawlang == 'en') {
                                     var language = 'English';
-                                } else if (rawlang == 'bg') {
-                                    var language = 'Bulgarian';
-                                } else if (rawlang == 'cs') {
-                                    var language = 'Czech';
-                                } else if (rawlang == 'fi') {
-                                    var language = 'Finnish';
-                                } else if (rawlang == 'fr') {
-                                    var language = 'French';
-                                } else if (rawlang == 'pt') {
-                                    var language = 'Portuguese';
-                                } else if (rawlang == 'zh') {
-                                    var language = 'Chinese';
-                                } else if (rawlang == 'sk') {
-                                    var language = 'Slovak';
-                                } else if (rawlang == 'nl') {
-                                    var language = 'Dutch';
-                                } else if (rawlang == 'ms') {
-                                    var language = 'Malay';
                                 }
 
                                 var rawrank = API.getUser(id);
