@@ -317,7 +317,7 @@
             intervalMessages: ["The RCS extension is an enhancement for plug.dj. Install it so you can see our custom channel theme! https://rcs.radiant.dj"],
             messageInterval: 10,
             songstats: true,
-            commandLiteral: '/',
+            commandLiteral: "/",
             blacklists: {
                 NSFW: 'https://raw.githack.com/basicBot/custom/master/blacklists/NSFWlist.json',
                 OP: 'https://raw.githack.com/basicBot/custom/master/blacklists/OPlist.json',
