@@ -112,7 +112,7 @@
 
     var loadChat = function(cb) {
         if (!cb) cb = function() {};
-        $.get('https://raw.githack.com/Kermon55/Kermon55mrBOT/master/lang/langIndex.json', function(json) {
+        $.get("https://raw.githack.com/Kermon55/Kermon55mrBOT/master/lang/langIndex.json", function(json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== 'undefined') {
                 langIndex = json;
@@ -178,7 +178,7 @@
         }
         var json_sett = null;
         var info = _.find(require.s.contexts._.defined, (m) => m && m.attributes && 'hostID' in m.attributes).get('long_description');
-        var ref_bot = '@basicBot=';
+        var ref_bot = '@Botton | BOT';
         var ind_ref = info.indexOf(ref_bot);
         if (ind_ref > 0) {
             var link = info.substring(ind_ref + ref_bot.length, info.length);
@@ -240,27 +240,27 @@
         return str;
     };
 
-    var botCreator = 'Kermon55';
-    var botMaintainer = 'Kermon55';
+    var botCreator = "Kermon55";
+    var botMaintainer = "Kermon55";
     var botCreatorIDs = [5989695, 5989695];
 
     var basicBot = {
-        version: '3.0',
+        version: "4.1.6.7",
         status: false,
-        name: 'Botton',
-        loggedInID: null,
-        scriptLink: 'https://raw.githack.com/Kermon55/Kermon55mrBOT/master/basicBot.js',
-        cmdLink: 'https://git.io/fhn0w',
-        chatLink: 'https://raw.githack.com/Kermon55/Kermon55mrBOT/master/lang/en.json',
+        name: "Botton",
+        loggedInID: "38887138",
+        scriptLink: "https://raw.githack.com/Kermon55/Kermon55mrBOT/master/basicBot.js",
+        cmdLink: "https://git.io/fhn0w",
+        chatLink: "https://raw.githack.com/Kermon55/Kermon55mrBOT/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: 'Botton',
-            language: 'english',
-            chatLink: 'https://raw.githack.com/Kermon55/Kermon55mrBOT/master/lang/en.json',
-            scriptLink: 'https://raw.githack.com/Kermon55/Kermon55mrBOT/master/basicBot.js',
+            botName: "Botton",
+            language: "english",
+            chatLink: "https://raw.githack.com/Kermon55/Kermon55mrBOT/master/lang/en.json",
+            scriptLink: "https://raw.githack.com/Kermon55/Kermon55mrBOT/master/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
