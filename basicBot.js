@@ -242,7 +242,7 @@
 
     var botCreator = "Kermon55";
     var botMaintainer = "Kermon55";
-    var botCreatorIDs = [5989695, 5989695];
+    var botCreatorIDs = ["5989695", "5989695"];
 
     var basicBot = {
         version: "4.1.6.7",
@@ -266,12 +266,12 @@
             startupVolume: 0, // 0-100
             startupEmoji: false, // true or false
             autowoot: true,
-            autoskip: false,
+            autoskip: true,
             smartSkip: true,
             cmdDeletion: true,
             maximumAfk: 360,
             afkRemoval: true,
-            maximumDc: 60,
+            maximumDc: 500,
             bouncerPlus: false,
             blacklistEnabled: true,
             lockdownEnabled: false,
@@ -300,19 +300,19 @@
                 ['nsfw', 'The song you contained was NSFW (image or sound). '],
                 ['unavailable', 'The song you played was not available for some users. ']
             ],
-            afkpositionCheck: 15,
-            afkRankCheck: 'ambassador',
+            afkpositionCheck: 50,
+            afkRankCheck: 'user',
             motdEnabled: false,
-            motdInterval: 5,
+            motdInterval: 15,
             motd: 'Temporary Message of the Day',
             filterChat: true,
-            etaRestriction: false,
+            etaRestriction: true,
             welcome: true,
             opLink: null,
-            rulesLink: null,
+            rulesLink: "https://goo.gl/3RnkL2",
             themeLink: null,
-            fbLink: null,
-            youtubeLink: null,
+            fbLink: "https://www.facebook.com/Kermon55",
+            youtubeLink: "https://www.youtube.com/Kermon55",
             website: null,
             intervalMessages: ["The RCS extension is an enhancement for plug.dj. Install it so you can see our custom channel theme! https://rcs.radiant.dj"],
             messageInterval: 10,
@@ -325,7 +325,7 @@
             }
         },
         room: {
-            name: 'Kermon55 MusicRoom',
+            name: null,
             chatMessages: [],
             users: [],
             afkList: [],
